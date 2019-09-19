@@ -1,0 +1,5 @@
+com\koala\model\StudentExample.class
+com\koala\model\StudentExample$Criteria.class
+com\koala\model\StudentExample$Criterion.class
+com\koala\model\Student.class
+com\koala\model\StudentExample$GeneratedCriteria.class

@@ -14,7 +14,10 @@
 	<!-- Standard button -->
 <button type="button" class="btn btn-default">（默认样式）Default</button>
 
-<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-<button type="button" class="btn btn-primary">（首选项）Primary</button>
+<div>
+	<c:forEach items="${list}" var="item" varStatus="current">
+		<div>${item.name}</div>
+	</c:forEach>
+</div>
 </body>
 </html>
